@@ -1,0 +1,133 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: rgb(152, 152, 152);
+    margin:0;
+    font-family: "Comic Relief", system-ui;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px
+}
+
+h1{
+    margin:0;
+}
+
+h2{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+
+}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+    gap: 110px;
+}
+
+.hero{
+    background-image: url("https://plus.unsplash.com/premium_photo-1760131843364-74a8a524e438?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1034");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-size: cover;
+}
+
+#rodzic{
+    box-shadow: 0 0 10px red
+}
+
+ul > li{
+    background-color:aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid aqua
+}
+
+ul li{
+    color: red;
+    background: rebeccapurple;
+}
+
+ul li li{
+    color: aquamarine;
+    background: chocolate;
+}
+
+ul + p{
+    color: #0074D9;
+    font-style: arial;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    font-weight: italic;
+}
+
+li:hover{
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+
+li:active{
+    transform: scale(0.98)
+}
+
+li:before{
+    content: "👶🏼"
+}
+
+.hero a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+.hero a:hover{
+    background-color:blanchedalmond;
+    cursor: pointer;
+    transition:all 1s;
+}
+
+.hero p{
+    background-color: white;
+}
+
+
+main{
+    width: 80%;
+    margin:auto;
+    background-color:#0074D9;
+}
+
+section{
+    display: flex;
+    padding: 20px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+@media(max-width:768px){
+    
+    
+        
+    
+
+}
