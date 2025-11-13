@@ -71,6 +71,7 @@ border-radius:15px;
   height: auto;
   margin-left: 20px;
   border-radius:15px;
+
   }
   
   
@@ -87,14 +88,17 @@ border-radius:15px;
     height: auto;
     margin-left: 20px;
     border-radius:15px;
+
     }
     
-    
+
+
     .content3 {
       display: flex;
       justify-content: space-around;
       align-items: center;
       padding: 20px;
+      
       
     }
 
@@ -103,9 +107,9 @@ border-radius:15px;
 }
 
 
-    .content4 img{
-      max-width: 600px;
-      height: auto;
+    .content4 iframe{
+      
+      
       margin-left: 20px;
       border-radius:15px;
       }
