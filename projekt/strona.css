@@ -98,6 +98,11 @@ border-radius:15px;
       
     }
 
+.mapyg nav{
+  background-color: RGB(255,255,255);
+}
+
+
     .content4 img{
       max-width: 600px;
       height: auto;
@@ -105,6 +110,7 @@ border-radius:15px;
       border-radius:15px;
       }
       
+
       
       .content4 {
         display: flex;
@@ -113,6 +119,12 @@ border-radius:15px;
         padding: 20px;
         flex-direction:row-reverse
       }
+
+
+.mapyg{
+  margin:0px;
+  background-color:rgba(99, 88, 238, 1);
+}
 
 
 .text {
@@ -133,8 +145,8 @@ border-radius:15px;
   
   border-radius:15px;
 
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -25px;
+  margin-right: -25px;
 
 }
 
