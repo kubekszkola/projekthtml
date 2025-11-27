@@ -1,7 +1,10 @@
 *{
     scroll-behavior: smooth;
     list-style: none;
+    font-family: "Comic Relief", system-ui;
 }
+
+
 
 a:visited {
   color: inherit;
@@ -259,4 +262,144 @@ footer{
     }
   }
   
+  
+  
+  
+
+  
+  body {
+    background: #666;
+    
+  }
+  
+  /* --- Duży ciemniejszy box --- */
+  .outer-box {
+    max-width: 600px;
+    margin: 15px;
+    background: #8a6a4a;
+    border-radius: 20px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  .header-box {
+    padding: 0px 0;
+    text-align: center;
+    background: #8a6a4a;
+    font-size: 40px;
+  }
+  
+  .header-box h1 {
+    font-size: 42px;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive;
+    color: black;
+  }
+  
+  /* --- Jasny box z zawartością i formularzem --- */
+  .content-box {
+    background: #d8b385;
+    padding: 25px 30px 40px 30px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  /* --- Formularz --- */
+  .form-container {
+    margin-top: 25px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .field {
+    flex: 1;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field.full {
+    width: 100%;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #000;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 14px;
+    border: 2px solid #d8b385;
+    border-radius: 14px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  /* Phone wrapper fixes */
+  .phone-wrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #d8b385;
+    border-radius: 14px;
+    padding-left: 12px;
+    gap: 8px;
+  }
+  
+  .phone-icon {
+    font-size: 18px;
+    flex-shrink: 0;
+    user-select: none;
+  }
+  
+  .phone-wrapper input {
+    border: none;
+    padding-left: 0;
+    flex-grow: 1;
+    font-size: 14px;
+  }
+  
+
+  button {
+    padding: 14px;
+    font-size: 16px;
+    background-color: #8a6a4a;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #6b4f3a;
+  }
+  
+
+  .field.full button {
+    margin-top: 20px;
+  }
   

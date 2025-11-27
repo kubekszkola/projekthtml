@@ -46,23 +46,7 @@
 
 
 
-        <div class="form">    
-            <form action="/wyslij" method="POST">
-                <label for="imie">Imię:</label>
-                <input type="text" id="imie" name="imie" required>
-            
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            
-                <label for="wiadomosc">Wiadomość:</label>
-                <textarea id="wiadomosc" name="wiadomosc"></textarea>
-            
-                <button type="submit">Wyślij</button>
-            </form>
-        </div>    
-
-
-
+     
 
 
 
@@ -82,4 +66,58 @@
 
 
 
+<footer>
 
+
+
+
+    <div class="outer-box">
+        <div class="header-box">
+          <p>Rejestracja</p>
+        </div>
+      
+        <div class="content-box">
+          <p>
+            W naszym gospodarstwie możesz dokonać rejestracji, podając swoje dane
+            w formularzu poniżej. Zapraszamy do wypełnienia wszystkich pól
+            lub kontaktu telefonicznego.
+          </p>
+      
+          <div class="form-container">
+            <form>
+              <div class="row">
+                <div class="field">
+                  <label>Imie</label>
+                  <input type="text" placeholder="First Name" />
+                </div>
+      
+                <div class="field">
+                  <label>Nazwisko</label>
+                  <input type="text" placeholder="Last Name" />
+                </div>
+              </div>
+      
+              <div class="field full">
+                <label>Email</label>
+                <input type="email" placeholder="Email Address" />
+              </div>
+      
+              <div class="field full phone-field">
+                <label>Numer telefonu</label>
+                <div class="phone-wrapper">
+                  <input type="text" placeholder="Phone Number" />
+                </div>
+                <div class="field full">
+                  <button type="submit">Wyślij</button>
+                </div>
+                
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+  </footer>
