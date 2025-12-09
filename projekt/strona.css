@@ -57,7 +57,7 @@ h1{
 }
 
 main{
-  background-color:gray
+  background-color: #666;
 }
 
 
@@ -109,7 +109,7 @@ animation : slideInLeft 1.3s ease-out forwards;
 
 
   .content3 img {
- background-color: gray;
+ 
 
  animation : slideInLeft 1.3s ease-out forwards;
     
@@ -201,7 +201,10 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
+
+  background-color: RGB(125,100,75);
+  
 }
 
 
@@ -237,7 +240,7 @@ footer{
 
   
 
-  /*     wysuwa sie tekst z boku strony      */ 
+  /*     wysuwaja sie boxy z boku strony      */ 
   
   
   
@@ -272,7 +275,7 @@ footer{
     
   }
   
-  /* --- Duży ciemniejszy box --- */
+  /* --- Box do rejestracji --- */
   .outer-box {
     max-width: 600px;
     margin: 15px;
@@ -292,11 +295,11 @@ footer{
   .header-box h1 {
     font-size: 42px;
     margin: 0;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Comic Relief", cursive;
     color: black;
   }
   
-  /* --- Jasny box z zawartością i formularzem --- */
+  /* --- Box do rejestracji--- */
   .content-box {
     background: #d8b385;
     padding: 25px 30px 40px 30px;
@@ -305,7 +308,7 @@ footer{
     color: black;
   }
   
-  /* --- Formularz --- */
+  /* --- Box do rejestracji --- */
   .form-container {
     margin-top: 25px;
     background: #fff;
@@ -359,7 +362,7 @@ footer{
     resize: none;
   }
   
-  /* Phone wrapper fixes */
+ 
   .phone-wrapper {
     display: flex;
     align-items: center;
@@ -402,4 +405,51 @@ footer{
   .field.full button {
     margin-top: 20px;
   }
+
+  section.polerejestracji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-image: url(zdjecia/png/gomskidom.jpg);
+    background-size: 100%;
+    
+  }
+/*------- Koniec boxa do rejestracji  --------*/
   
+
+
+/* Ujednolicenie wyglądu linków w menu */
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;          
+    text-decoration: none;
+}
+
+
+
+ZMIENICZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
+ZMIENIC KOLOR CZCIONKI
