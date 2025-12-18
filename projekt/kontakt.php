@@ -1,3 +1,13 @@
+<?php
+
+
+require "db-connection.php";
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
