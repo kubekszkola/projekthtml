@@ -209,7 +209,7 @@ footer{
 
 
 
-  /* From Uiverse.io by Hysean2 */ 
+
   .button {
     
     cursor: pointer;
@@ -240,7 +240,7 @@ footer{
 
   
 
-  /*     wysuwaja sie boxy z boku strony      */ 
+
   
   
   
@@ -275,7 +275,7 @@ footer{
     
   }
   
-  /* --- Box do rejestracji --- */
+
   .outer-box {
     max-width: 600px;
     margin: 15px;
@@ -299,7 +299,7 @@ footer{
     color: black;
   }
   
-  /* --- Box do rejestracji--- */
+ 
   .content-box {
     background: #d8b385;
     padding: 25px 30px 40px 30px;
@@ -308,7 +308,7 @@ footer{
     color: black;
   }
   
-  /* --- Box do rejestracji --- */
+
   .form-container {
     margin-top: 25px;
     background: #fff;
@@ -415,41 +415,76 @@ footer{
     background-size: 100%;
     
   }
-/*------- Koniec boxa do rejestracji  --------*/
-  
 
 
-/* Ujednolicenie wyglądu linków w menu */
-a:link,
-a:visited,
-a:hover,
-a:active {
-    color: white;          
-    text-decoration: none;
+h4 {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
 
-ZMIENICZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
 
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
 
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
 
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color:#8a6a4a;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.15);
+}
 
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
-ZMIENIC KOLOR CZCIONKI
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #8a6a4a;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+
+form button:hover {
+  background: #000000;
+}
+
+form button:active {
+  transform: scale(0.98);
+}
